@@ -1,0 +1,16 @@
+{
+  "name": "codeworks-tp-counterfeiter",
+  "authors": [
+    "Codeworks"
+  ],
+  "description": "A Codeworks toy problem to train students",
+  "license": "UNLICENSED",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
