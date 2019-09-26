@@ -1,11 +1,11 @@
 {
   "name": "codeworks-tp-counterfeiter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Codeworks exercise to train students",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "codeworksbcn/tp-counterfeiter"
+    "url": "codeworks/tp-counterfeiter"
   },
   "author": "Codeworks",
   "license": "UNLICENSED",
