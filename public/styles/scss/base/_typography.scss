@@ -1,0 +1,24 @@
+body {
+  font-family: $font-primary;
+  font-size: $text-size-base;
+  color: $color-text;
+}
+
+strong {
+  font-weight: $font-weight-bold;
+}
+
+p {
+  font-weight: $font-weight-light;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: $text-size-xxl;
+  line-height: 1.35;
+}
+
+h2 {
+  font-size: $text-size-l;
+  line-height: 1.35;
+}

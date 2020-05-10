@@ -1,0 +1,30 @@
+.title--hero span {
+  background-image: $gradient-brand;
+}
+
+.title--stars {
+  &:before {
+    content: ' ';
+    display: block;
+    height: 39px;
+    width: 100%;
+    margin-bottom: 12px;
+
+    background: url('../images/gui/stars.svg') center right/auto 100%  no-repeat;
+  }
+}
+
+.title-article {
+  font-size: $text-size-xl;
+  font-weight: $font-weight-bold;
+}
+
+.title-article--small {
+  font-size: $text-size-l;
+}
+
+.title-sub {
+  color: $color-text-tertiary;
+  font-size: $text-size-m;
+  font-weight: $font-weight-light;
+}

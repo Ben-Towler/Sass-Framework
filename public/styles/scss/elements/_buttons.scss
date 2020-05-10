@@ -1,0 +1,81 @@
+// DEFAULT BUTTON
+.button {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 3px;
+
+  font-size: $text-size-s;
+  color: $color-text;
+  text-align: center;
+
+  &:after {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin-left: 2px;
+
+    content: ' ';
+    background-image: url('../images/gui/arrow.svg');
+    background-size: 100% 100%;
+  }
+}
+
+// LARGER BUTTON 
+.button--large {
+  font-size: $text-size-m;
+  padding: 14px 20px;
+  border-radius: 4px;
+
+  &:after {
+    margin-left: 8px;
+  }
+}
+
+// CHANGE ARROW COLOR
+.button--border, .button--primary, .button--secondary {
+  &:after {
+    height: 12px;
+    width: 12px;
+    background-image: url('../images/gui/arrow-white.svg');
+  }
+}
+
+// BUTTON VARIANTS
+.button--primary {
+  background-color: $color-brand-primary;
+  color: white;
+}
+
+.button--secondary {
+  background-color: $color-brand-secondary;
+  color: white;
+}
+
+.button--border {
+  color: $color-brand-secondary;
+  border: 1px solid $color-brand-secondary;
+
+  &:after {
+    background-image: url('../images/gui/arrow-brand.svg');
+  }
+}
+
+// BUTTON PADLOCK
+.button--lock {
+  &:before {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin-left: 2px;
+
+    content: ' ';
+    background-image: url('../images/gui/padlock.svg');
+    background-size: 100% 100%;
+  }
+}
+
+// BUTTON SPACING
+
+.button + .button {
+  margin-left: $spacing-medium;
+}

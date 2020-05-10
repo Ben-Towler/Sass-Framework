@@ -36,5 +36,13 @@
     "ghooks": {
       "pre-commit": "gulp lint"
     }
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "cssnano": "^4.1.10",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss": "^7.0.29",
+    "sass": "^1.26.5"
   }
 }

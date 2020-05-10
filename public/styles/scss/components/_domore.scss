@@ -1,0 +1,25 @@
+.domore {
+  margin-top: 65px;
+}
+
+.domore__grid {
+  display: grid;
+  grid-template-columns: 0.45fr 1fr;
+  grid-column-gap: 50px;
+
+  padding-bottom: 50px;
+  border-bottom: 1px solid $color-light-grey;
+}
+
+.domore__inner {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-row-gap: 40px;
+}
+
+.domore__row {
+  display: grid;
+  grid-template-columns: 310px 310px;
+  grid-column-gap: 30px;
+  justify-content: space-between;
+}

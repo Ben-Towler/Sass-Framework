@@ -1,0 +1,16 @@
+.header {
+  position: relative;
+  height: 75px;
+}
+
+.header__grid {
+  display: grid;
+  grid-template-columns: 110px auto 270px;
+  grid-column-gap: 20px;
+}
+
+.header__logo {
+  height: auto;
+  width: 110px;
+  margin-top: 4px;
+}

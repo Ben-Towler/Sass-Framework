@@ -1,0 +1,19 @@
+.menu {
+  width: 100%;
+  list-style: none;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.menu__item {
+  display: inline-block;
+  width: auto;
+  padding: 23px 12px;
+}
+
+.menu__item a {
+  font-size: $text-size-s;
+  color: $color-text;
+  text-align: center;
+  text-decoration: none;
+}

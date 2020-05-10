@@ -1,0 +1,18 @@
+.list-links__item:not(:first-child) {
+  margin-top: $spacing-large;
+}
+
+.list-links__item a {
+  color: $color-text-secondary;
+
+  &:after {
+    display: inline-block;
+    height: 10px;
+    width: 12px;
+    margin-left: 10px;
+
+    content: ' ';
+    background-image: url('../images/gui/arrow-blue.svg');
+    background-size: 100% 100%;
+  }
+}
